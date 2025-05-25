@@ -252,12 +252,12 @@ file_put_contents($txtFile, $linhaTxt, FILE_APPEND);
 
 function incluirCabecalho()
 {
-    include '../html/cabecalho.html';
+    include '../html/cabecalho.php';
 }
 
 function incluirRodape()
 {
-    include '../html/rodape.html';
+    include '../html/rodape.php';
 }
 
 echo '
@@ -274,18 +274,18 @@ echo '
     <body>
         <header class="content">
             <div class="logo">
-                <a href="../html/index.html"><img src="../fts/Logo_EETAN.png" alt="logo_escola"></a>
-                <h3><a href="index.html" style="color: aliceblue;">EETAN</a></h3>
+                <a href="../html/index.php"><img src="../fts/Logo_EETAN.png" alt="logo_escola"></a>
+                <h3><a href="index.php" style="color: aliceblue;">EETAN</a></h3>
             </div>
             <nav>
                 <ul class="list-menu">
-                    <li><a href="../html/sobre.html">Sobre</a></li>
-                    <li><a href="../html/cursos.html">Cursos</a></li>
-                    <li><a href="../html/direcao.html">Direção</a></li>
-                    <li><a href="../html/CorpoDocente.html">Professores</a></li>
-                    <li><a href="../html/matricula.html">Matricula</a></li>
+                    <li><a href="../html/sobre.php">Sobre</a></li>
+                    <li><a href="../html/cursos.php">Cursos</a></li>
+                    <li><a href="../html/direcao.php">Direção</a></li>
+                    <li><a href="../html/CorpoDocente.php">Professores</a></li>
+                    <li><a href="../html/matricula.php">Matricula</a></li>
                     <li>
-                        <a href="../html/cadastro.html">
+                        <a href="../html/cadastro.php">
                             <i class="bi bi-person-circle"></i>
                         </a>
                     </li>
@@ -315,7 +315,7 @@ echo '
                     Aguarde um e-mail de confirmação nos próximos <strong>7 dias</strong>.<br>
                     Caso não receba, entre em contato com a secretaria da escola.
                 </p>
-                <a class="btn-voltar" href="../html/index.html">Voltar para o início</a>
+                <a class="btn-voltar" href="../html/index.php">Voltar para o início</a>
             </div>
         </main>
         <footer>

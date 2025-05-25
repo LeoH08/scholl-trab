@@ -229,7 +229,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <?php endforeach; ?>
     </tbody>
   </table>
-
 </body>
 
 </html>

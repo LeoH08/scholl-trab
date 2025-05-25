@@ -25,6 +25,7 @@ html {
   align-items: center;
   background-color: #213967;
   position: fixed;
+  top: 0;
   padding-left: 30rem;
   z-index: 1;
 }
